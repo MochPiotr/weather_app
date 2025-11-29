@@ -48,7 +48,7 @@ def print_weather_data(data, city):
     print(f"The sunrise in {city}: {sunrise_time}")
     print(f"The sunset in {city}: {sunset_time}")
 
-# tylko tutaj wywołujemy input i API
+
 if __name__ == "__main__":
     CITY = city()
     print(f"DEBUG: Checking weather for '{CITY}'")
