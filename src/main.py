@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from utils import get_weather, format_weather_data
-from http import HTTPExc
 
 
 API_KEY = open('key/api_key').read().strip()
