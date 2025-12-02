@@ -10,6 +10,9 @@ def get_weather(city: str, api_key):
     }
     response = requests.get(BASE_URL, params=params)
 
+    if response.status_code == 404:
+        raise ValueError("City not found")
+
     if response.status_code != 200:
         raise Exception(f"API returned status {response.status_code}: {response.text}")
 
