@@ -39,12 +39,12 @@ def format_weather_data(data, city):
 
     return {
         "city": city,
-        "Temperature_c": temp_celsius,
-        "Temperature_f": temp_fahrenheit,
-        "Feels_like_c": feels_like_celsius,
-        "Feels_like_f": feels_like_fahrenheit,
-        "Humidity": humidity,
-        "Description": description,
-        "Sunrise": sunrise_time,
-        "Sunset": sunset_time,
+        "temperature_c": temp_celsius,
+        "temperature_f": temp_fahrenheit,
+        "feels_like_c": feels_like_celsius,
+        "feels_like_f": feels_like_fahrenheit,
+        "humidity": humidity,
+        "description": description,
+        "sunrise": sunrise_time,
+        "sunset": sunset_time,
     }
