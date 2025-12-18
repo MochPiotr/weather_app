@@ -34,8 +34,6 @@ weather-app/
 ├── tests/
 │   ├── test_utils.py       # Unit tests for utils functions
 │   └── test_weather.py     # Optional tests for routers
-├── key/
-│   └── api_key             # OpenWeather API key (ignored in .gitignore)
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
